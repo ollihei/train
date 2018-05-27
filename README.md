@@ -7,3 +7,4 @@ img[alt=DiagramOfElectronics] {
 
 ![DiagramOfElectronics](https://raw.githubusercontent.com/ollihei/train/master/Documentation/ElectronicsDiagram.png) {: width: 200px; }
 
+<img src="https://raw.githubusercontent.com/ollihei/train/master/Documentation/ElectronicsDiagram.png" width="48">
