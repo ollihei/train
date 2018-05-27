@@ -13,8 +13,10 @@ A simple diagram describing the electronics of the project. This diagram is for 
 ## Running
 
 In Raspberry webserver do the following:
-* Connect he bluetooth: 'sudo rfcomm connect hci0 98:D3:31:30:6D:3F'
-* Start the webserver: 'sudo python webserver.py'
+* Connect he bluetooth: 
+```sudo rfcomm connect hci0 98:D3:31:30:6D:3F```
+* Start the webserver: 
+```sudo python webserver.py```
 
 ## Author
 
