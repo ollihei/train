@@ -1,6 +1,6 @@
 # The Lego train project
 img[alt=DiagramOfElectronics] {
-  width: 50%;
+  width: 10%;
   border: none;
   background: none;
 }
