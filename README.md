@@ -38,7 +38,7 @@ My goal is to build a simple lego train controlling system with Arduino. At this
   +------------+
 ```
 
-## Electronic
+## Electronic (Arduino)
 
 A simple diagram describing the electronics of the project. This diagram is for locomotive.
 
