@@ -4,6 +4,40 @@
 
 My goal is to build a simple lego train controlling system with Arduino. At this stage it's be possible to change the speed and running direction of a locomotive. Also controlling a switch is possible.
 
+## Big picture
+
+```
++----------------+
+|                |
+| User (browser) |
+|                |
++--------+-------+
+         |
+         | HTTP request
+         |
+   +-----v-----+
+   |           |
+   | Raspberry |
+   |           |
+   +-----^-----+
+         |
+         | Bluetooth
+         |
+    +----v----+
+    |         |
+    | Arduino |
+    |         |
+    +----+----+
+         |
+         | Voltage (frequency)
+         |
+  +------v-----+
+  |            |
+  | Lego motor |
+  |            |
+  +------------+
+```
+
 ## Electronic
 
 A simple diagram describing the electronics of the project. This diagram is for locomotive.
