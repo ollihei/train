@@ -132,7 +132,7 @@ void moveSwitch(String command) {
   String returnText = "No action: " + command +".";
   if (command.toInt()==1) {
     returnText = "Switch set to straight mode ";
-    returnText = returnText;
+    returnText = returnText```;
     motorSpeed=200;
     motorDirection=1;
     motorMoveTTL=1;

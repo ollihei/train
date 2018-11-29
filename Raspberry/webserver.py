@@ -27,6 +27,12 @@ def updatedirection(motor_id, direction):
     response = ser.readline()
     return 'Motor %d: Request direction of %d. Response from motor controller: %s' % (motor_id, direction, response)
 
+@app.route('/trainlocation')
+def updatelocation(motor_id, direction):
+    tag = request.args.get("tag")
+    id = request.args.get("id")
+    return 'Trainlocation: Tag %s, id %id' % (tag, id)
+
 @app.route('/motor/<int:motor_id>/status')
 def status(motor_id):
     ser.write(b'status')
@@ -34,5 +40,6 @@ def status(motor_id):
     response = ser.readline()
     return 'Status of motor %d: %s' % (motor_id, response)
 
-	if __name__ == "__main__":
+
+if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80)
