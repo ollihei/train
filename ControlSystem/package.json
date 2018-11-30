@@ -1,0 +1,24 @@
+{
+  "name": "bombermanservice",
+  "version": "0.0.1",
+  "description": "Bomberman service contains the logic of the game.",
+  "scripts": {
+    "start": "tsc && npm i && node ./dist/server",
+    "build": "tsc",
+    "test": "tsc && npm i && jasmine"
+  },
+  "author": "Olli Heimonen, olliolioi@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "@types/node": "^10.10.1",
+    "jasmine": "^3.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "jasmine": "^3.2.0",
+    "safe-eval": "^0.4.1",
+    "typescript": "^3.0.3"
+  },
+  "main": "index.js"
+}

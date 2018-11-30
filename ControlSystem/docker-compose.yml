@@ -1,0 +1,13 @@
+version: "2"
+services:
+  trainControl:
+    image: "node:8"
+    user: "node"
+    working_dir: /home/app/trainControl/
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/app/trainControl/
+    expose:
+      - "8081"
+    command: "npm test"
